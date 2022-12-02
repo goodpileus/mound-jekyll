@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="photos">
+  <!-- {{ content | remove: '<p>' | remove: '</p>' }} -->
+
+  {% for image in site.static_files %}
+    {% if image.path contains page.image-path %}
+    <div class="item">
+      <img id="{{ image.basename }}" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.path }}" title="{{ image.basename }}">
+      <a class="caption" href="{{ site.baseurl }}{{ image.path }}" target="_blank">{{ image.basename }}</a>
+    </div>
+    {% endif %}
+  {% endfor %}
+
+  <span class="lightbox-bg"></span>
+</article>
+
+
