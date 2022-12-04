@@ -11,11 +11,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
   <title>
-    {% if page.title == "directory" %}
-      {{ site.title }}
-    {% else %}
-      {{ site.title }} - {{ page.title }}
-    {% endif %}
+    {{ site.title }}
   </title>
 
   <!-- Open Graph metadata -->
@@ -32,6 +28,7 @@
 
   <!-- CSS link -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/patterns.css" />
 
   <!-- Icons -->
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.png" />

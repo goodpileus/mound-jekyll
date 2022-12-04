@@ -2,6 +2,8 @@
 sitemap: false
 ---
 
+@import "syntax";
+
 /* GENERAL, TOTAL DOCUMENT */
 * {
   box-sizing: border-box;
@@ -108,7 +110,7 @@ img.active,
 
 .gallery a::after {
   content: "";
-  background: url('../../img/glass2.png');
+  background: url('../img/glass2.png');
   width: 15px;
   height: 15px;
   display: block;
@@ -183,7 +185,7 @@ summary a {
 
 summary a::after {
   content: "";
-  background: url('../../img/glass2.png');
+  background: url('../img/glass2.png');
   width: 15px;
   height: 15px;
   display: block;
@@ -325,7 +327,7 @@ section {
   /* padding-left: 2.4rem; */
   min-height: 400px;
   position: relative;
-  margin-bottom: -0.rem;
+  margin-bottom: 0rem;
   /* margin-left: 1.9rem; */
   display: flex;
 }
@@ -423,7 +425,6 @@ section .label h1{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url('../../img/hatches/sand1.gif');
   overflow-x: hidden;
 }
 
@@ -547,7 +548,6 @@ section .label h1{
   width:100%;
   height:100%;
   position:absolute;
-  background:url('../../img/stars2.gif');
   /* background-size: cover; */
   top:0;
   left:0;
@@ -559,10 +559,8 @@ section .label h1{
   stroke:var(--text);
   stroke-miterlimit:1px;
   stroke-width: 1px; */
-
-  background-image: url('../../img/hatches/sand1.gif');
   height:130px;
-  mask-image: url('../../img/mound-mask.svg');
+  mask-image: url('../img/mound-mask.svg');
   position:absolute;
   bottom:0; 
   width:100%;
@@ -571,7 +569,6 @@ section .label h1{
 }
 
 .mound-mask2 {
-  
   position:absolute;
   bottom:0; 
   /* fill:black; */
@@ -580,36 +577,6 @@ section .label h1{
   stroke-width: 1px;
   width:100%;
 }
-
-/* other sections */
-a.mound {
-  background-image: url('../../img/hatches/mound-key.gif');
-}
-
-#s0, .s0 {
-  background-image: url('../../img/hatches/sand1.gif');
-  /* background-color: darkolivegreen; */
-}
-
-#s1, .s1 {
-  background-image: url('../../img/hatches/stones3.gif');
-
-}
-
-/* #s2, .s2 {
-  background-image: url('../../img/hatches/stone.gif');
-} */
-
-#bedrock, .bedrock {
-  background-image: url('../../img/hatches/stones1b.gif');
-}
-
-/* #main {
-  overflow:auto;
-  height:100vh;
-  width:100%;
-  scroll-behavior:smooth;
-} */
 
 
 /* alignments */
@@ -676,14 +643,51 @@ main h1:first-of-type {
   font-size: .9rem;
 }
 
-.paypal-button {
-  max-width: 250px;
+.product-box {
+  border:1px solid;
+  margin-top:.5rem;
+  display: flex;
+  align-items: center;
 }
 
-.paypal-button .price {
-  background: var(--bg);
-  padding:.3rem;
-  margin-bottom: .5rem;
+.product-box div {
+  padding:.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.product-title, .price {
+  border-right:1px solid;
+  width:25%;
+}
+
+.price {
+  // margin-bottom: .5rem;
+}
+
+table {
+  // border: 1px solid;
+  border-collapse: collapse;
+  width:100%;
+  padding:0 .5rem;
+}
+
+td {
+  border-top: 1px solid;
+  padding:.5rem .8rem;
+}
+
+.paypal-wrap div {
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.paypal-button {
+  width:100%;
+  max-width: 190px;
+  margin-bottom:-7px;
 }
 
 @media screen and (max-width:800px) {

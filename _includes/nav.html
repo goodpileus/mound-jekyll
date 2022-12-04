@@ -1,62 +1,28 @@
-<nav class="menu" id="nav">
-  <img class="icon" src="{{ site.baseurl }}/assets/favicon.png" title="patience">
-  <span class="name" title="aidan quinlan">aidan</span>
-  <!-- check if on the photos page, to override the option selection and display the year category -->
+<nav>
 
-  {% if page.layout == 'photos' %}
+  <button class="key-btn">key</button>
 
-  <select name="rooms" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-
-    {% assign groups = site.pages | group_by: "category" | sort: "order" %}
-    {% for group in groups %}
-      
-      {% if group.name == 'main' %}
-        {% for item in group.items %}
-          <option class="menu-item" {% if item.title == 'photo' %}selected="selected"{% endif %} value="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
-          </option>
-        {%endfor%}
-      {%endif%}
-    {%endfor%}
+  <div class="key">
     
-  </select>
+    <a class="mound" href="#mound"><span>mound.</span></a>
 
-  <select name="years" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-    {% assign groups = site.photo | group_by: "category" %}
-      {% for group in groups %}
-        
-        {% if group.name == 'year' %}
-          {% for item in group.items reversed %}
-            <option class="menu-item" {% if page.url == item.url %}selected="selected"{% endif %} value="{{ site.baseurl }}{{ item.url }}">
-              {{ item.title }}
-            </option>
-          {%endfor%}
-        {%endif%}
-      {%endfor%}
+    {% for category in categories_array %}
+      {% if category != 'bedrock' %}
+        <a class="{{category}}" href="#{{category}}">
+          <span>{{category}}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+    
+    <!-- in order to place the bedrock key button at the end -->
+    {% for category in categories_array %}
+      {% if category == 'bedrock' %}
+        <a class="{{category}}" href="#{{category}}">
+          <span>{{category}}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
   
-  </select>
+  </div>
 
-  {% else %}
-
-  <select name="rooms" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-
-    {% assign groups = site.pages | group_by: "category" | sort: "order" %}
-    {% for group in groups %}
-      
-      {% if group.name == 'main' %}
-        {% for item in group.items %}
-          <option class="menu-item" {% if page.url == item.url %}selected="selected"{% endif %} value="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
-          </option>
-        {%endfor%}
-      {%endif%}
-    {%endfor%}
-    
-  </select>
-
-  {% endif %}
-
-
-
-  <div class="ground"></div>
 </nav>
