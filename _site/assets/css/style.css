@@ -392,11 +392,12 @@ img.active,
   cursor: zoom-in; }
 
 .gallery a::after {
-  content: "";
-  background: url("../img/glass2.png");
-  width: 15px;
-  height: 15px;
-  display: block;
+  content: "+";
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: 100%; }
 
 .gallery span.active a {
@@ -457,18 +458,20 @@ summary a {
   cursor: zoom-in; }
 
 summary a::after {
-  content: "";
-  background: url("../img/glass2.png");
-  width: 15px;
-  height: 15px;
-  display: block;
+  content: "+";
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: 100%; }
 
 summary::after {
   content: "\25b2";
   text-align: center;
   display: block;
-  /* padding-bottom:.3rem; */ }
+  /* padding-bottom:.3rem; */
+  font-size: 60%; }
 
 details[open] summary a {
   display: block; }
@@ -860,8 +863,7 @@ td {
 
 .paypal-button {
   width: 100%;
-  max-width: 190px;
-  margin-bottom: -7px; }
+  max-width: 190px; }
 
 @media screen and (max-width: 800px) {
   html {
@@ -879,4 +881,10 @@ td {
     margin-right: 0; }
 
   .gallery span {
-    width: 49%; } }
+    width: 49%; }
+
+  .key {
+    display: flex; }
+
+  .key.active {
+    display: none; } }

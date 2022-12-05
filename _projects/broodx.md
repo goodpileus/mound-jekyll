@@ -14,9 +14,9 @@ gallery:
   - path: /assets/img/broodx/8.jpg
 
 products:
- - product-title: Product One
+ - product-title: Obj 1
    price: 200
- - product-title: Product Two
+ - product-title: Obj 2
    price: 500
 ---
 

@@ -1,25 +1,36 @@
-{% for project in site.projects %}
+{% for category in categories_array %}
+  
+  {% if category == 'bedrock' %}
+  <section id="{{category}}">
 
-  {% if project.category == 'bedrock' %}
-  <section id="bedrock">
     <span class="label">
-      <h1>{{project.title}}</h1>
+      <h1>{{category}}</h1>
     </span>
-
+  
     <div class="inner">
-      <div class="text align">
-        {{project.content}}
-      </div>
+      {% assign projects = site.projects | sort:"order" %}
+      {% for project in projects %}
+
+        {% if project.category == category %}
+
+        <div class="text align">
+          {{project.content}}
+        </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </section>
   {% endif %}
+
 {% endfor %}
+
+
 
 
 <script src="{{ site.baseurl }}/assets/js/jquery-3.6.0.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/js.cookie.min.js"></script>
 
-<script src="https://www.paypal.com/sdk/js?client-id=AWgBellbCDMnNqqHU2gDSOzvCaXMzfNDp-5i8HP7Kf8UiKO6xbYa-B4V9VbBeXtCJxG9rZk6cEApkN1F&disable-funding=credit,card"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=Acsy0r80q0o6naQmbGxv_GXoeT84Upf8ye06ibJVNjEaN0JpInhCz6OH0W0Nz4EtT96FY4asr4pGc06_&disable-funding=credit,card,paylater"></script>
 <script src="{{ site.baseurl }}/assets/js/buy-test.js"></script>
 
 <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>

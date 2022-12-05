@@ -4,7 +4,9 @@ document.querySelectorAll('.paypal-button').forEach(function(selector) {
   paypal.Buttons({
     style: {
       shape: 'rect',
-      color: 'black'
+      color: 'black',
+      height: 25,
+      tagline: false
     },
 
     // Set up the transaction
