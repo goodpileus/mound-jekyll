@@ -1,5 +1,5 @@
 ---
-layout: text
+layout: gallery
 title:  "test1"
 category: s0
 order: 2

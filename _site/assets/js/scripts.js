@@ -22,6 +22,11 @@ $( "img" ).click(function() {
 
 
 
+$( ".perma-btn" ).click(function() {
+  $( this ).next().toggleClass('active');
+  $( this ).toggleClass('active');
+});
+
     
 // random alignments
 var classes = new Array ('left', 'left-half', 'center', 'right-half', 'right');

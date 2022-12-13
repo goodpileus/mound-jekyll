@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+{% assign categories_array = "" | split:"|" %}
+
+{% for post in site.projects %}
+    {% for category in post.categories %}
+        {% assign categories_array = categories_array | push: category | uniq %}
+    {% endfor %}
+{% endfor %}
+
+{% include nav.html %}
+
+{% include mound.html %}
+
+{% for category in categories_array %}
+
+{% if category != 'bedrock' %}
+<section id="{{category}}">
+
+  <span class="label">
+    <h1>{{category}}</h1>
+  </span>
+
+  <div class="inner">
+    {% assign projects = site.projects | sort:"order" %}
+    {% for project in projects %}
+
+      {% if project.category == category %}
+
+        {% if project.layout == 'gallery' %}
+
+        <div class="project align">
+          <details id="{{project.title | slugify}}">
+            <summary>
+              <span>
+                <img src="{{ project.featured | prepend: site.baseurl }}">
+                <a href="{{ project.featured | prepend: site.baseurl }}" target="_blank"></a>
+              </span>
+            </summary>
+            <div class="dropdown">
+            
+            {% if project.gallery %}
+            <div class="gallery">
+              {% for image in project.gallery %}
+              <span>
+                <img src="{{ image.path | prepend: site.baseurl }}">
+                <a href="{{ image.path | prepend: site.baseurl }}" target="_blank"></a>
+              </span>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            {{project.content}}
+
+            </div>
+            
+            {% if project.custom == true %}
+            <div class="custom-disclaimer">
+              ✳ This item is custom and made to order. Check <a href="">here</a> for more info. ✳
+            </div>
+            {% endif %}
+
+            <table>
+              {% for product in project.products %}
+                <tr>
+                  <td>{{product.product-title}}</td>
+                  <td>${{product.price}}</td>
+                  {% if product.sold == false %}
+                    <td class="paypal-wrap">
+                      <div>
+                        <div class="paypal-button" id="{{product.product-title | slugify}}" data-price='{{product.price}}'></div>
+                      </div>
+                    </td>
+                  {% else %}
+                    <td class="paypal-wrap">SOLD OUT</td>
+                  {% endif %}
+                </tr>
+              {% endfor %}
+            </table>
+          
+          
+            <div class="perma-wrap">
+              <button class="perma-btn">⌘</button>
+              <div class="permalink">
+                <a href="{{ site.baseurl }}/#{{project.title | slugify}}">{{ site.baseurl }}/#{{project.title | slugify}}</a>
+              </div>
+            </div>
+
+          </details>
+        </div>
+        
+        {% else if project.layout == 'text' %}
+
+        <div class="text align" id="{{project.title | slugify}}">
+          <div class="text-inner">
+            {{project.content}}
+          </div>
+          
+          <div class="perma-wrap">
+            <button class="perma-btn">⌘</button>
+            <div class="permalink">
+              <a href="{{ site.baseurl }}/#{{project.title | slugify}}">{{ site.baseurl }}/#{{project.title | slugify}}</a>
+            </div>
+          </div>
+        </div>
+
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</section>
+{% endif %}
+
+{% endfor %}
+
+
+{% for category in categories_array %}
+  
+  {% if category == 'bedrock' %}
+  <section id="{{category}}">
+
+    <span class="label">
+      <h1>{{category}}</h1>
+    </span>
+  
+    <div class="inner">
+      {% assign projects = site.projects | sort:"order" %}
+      {% for project in projects %}
+
+        {% if project.category == category %}
+
+        <div class="text align" id="{{project.title | slugify}}">
+          <div class="text-inner">
+            {{project.content}}
+          </div>
+          
+          <div class="perma-wrap">
+            <button class="perma-btn">⌘</button>
+            <div class="permalink">
+              <a href="{{ site.baseurl }}/#{{project.title | slugify}}">{{ site.baseurl }}/#{{project.title | slugify}}</a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+{% endfor %}
+
+

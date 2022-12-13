@@ -100,7 +100,7 @@ img.active,
   display: none;
   bottom: 0;
   right: 0;  
-  background: white;
+  background: var(--bg);
   padding:2px;
   text-decoration: none;
   color: var(--text);
@@ -227,7 +227,7 @@ details[open] summary::after {
 
 details {
   /* margin-top: -.5rem; */
-  background:white;
+  background:var(--bg);
   /* padding:.5rem; */
   /* border:1px solid; */
 }
@@ -364,7 +364,7 @@ section {
 } */
 
 section .label {
-  background: white;
+  background: var(--bg);
   /* height: 100%; */
   width: 1.9rem;
   position: absolute;
@@ -589,12 +589,12 @@ section .label h1{
   max-width: calc(var(--content-width));
   position: relative;
   margin:12rem 0 3rem 0;
-  background: white;
+  background: var(--bg);
   /* padding:.5rem; */
   width: 100%;
 }
 
-.text {
+.text-inner {
   padding:.8rem;
 }
 
@@ -681,6 +681,12 @@ table {
 td {
   border-top: 1px solid;
   padding:.5rem .8rem;
+
+  width:60%;
+}
+
+.paypal-wrap {
+  text-align: center;
 }
 
 .paypal-wrap div {
@@ -693,6 +699,53 @@ td {
   width:100%;
   max-width: 190px;
   // margin-bottom:-7px;
+}
+
+.custom-disclaimer {
+  padding:.5rem .8rem;
+  background:lightyellow;
+  // background:var(--hover);
+  text-align: center;
+  font-size: 90%;
+  border-top:1px solid;
+}
+
+.perma-wrap {
+  // border-top:1px solid;
+  // padding:.2rem .8rem;
+  font-size: 90%;
+  position: relative;
+}
+
+.perma-btn {
+  position: absolute;
+  height:1.5rem;
+  width:1.5rem;
+  background:var(--bg);
+  bottom:-1.5rem;
+  left:0;
+  border:0;
+  cursor:pointer;
+  // border-top:1px solid;
+}
+
+.perma-btn:hover {
+  background:var(--hover);
+}
+
+.permalink {
+  display: none;
+  position: absolute;
+  height:1.5rem;
+  background: var(--bg);
+  left: 1.5rem;
+  align-items: center;
+  padding: 0 .5rem;
+  // border-top:1px solid;
+}
+
+.permalink.active {
+  display: flex;
 }
 
 @media screen and (max-width:800px) {

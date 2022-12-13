@@ -1,6 +1,6 @@
 ---
 layout: text
-title:  "bedrock"
+title:  "bedrock 2"
 category: bedrock
 ---
 

@@ -4,84 +4,10 @@
 {% include head.html %}
 
 <body>
-  {% assign categories_array = "" | split:"|" %}
 
-  {% for post in site.projects %}
-      {% for category in post.categories %}
-          {% assign categories_array = categories_array | push: category | uniq %}
-      {% endfor %}
-  {% endfor %}
-
-  {% include nav.html %}
-
-  {% include mound.html %}
-
-  {% for category in categories_array %}
-  
-  {% if category != 'bedrock' %}
-  <section id="{{category}}">
-
-    <span class="label">
-      <h1>{{category}}</h1>
-    </span>
-  
-    <div class="inner">
-      {% assign projects = site.projects | sort:"order" %}
-      {% for project in projects %}
-
-        {% if project.category == category %}
-
-        <div class="project align">
-          <details id="{{project.title}}">
-            <summary>
-              <span>
-                <img src="{{ project.featured | prepend: site.baseurl }}">
-                <a href="{{ project.featured | prepend: site.baseurl }}" target="_blank"></a>
-              </span>
-            </summary>
-            <div class="dropdown">
-            
-            {% if project.gallery %}
-            <div class="gallery">
-              {% for image in project.gallery %}
-              <span>
-                <img src="{{ image.path | prepend: site.baseurl }}">
-                <a href="{{ image.path | prepend: site.baseurl }}" target="_blank"></a>
-              </span>
-              {% endfor %}
-            </div>
-            {% endif %}
-
-            {{project.content}}
-
-            </div>
-            
-
-            <table>
-              {% for product in project.products %}
-                <tr>
-                  <td>{{product.product-title}}</td>
-                  <td>${{product.price}}</td>
-                  <td class="paypal-wrap">
-                    <div>
-                      <div class="paypal-button" id="{{product.product-title | slugify}}" data-price='{{product.price}}'></div>
-                    </div>
-                  </td>
-                </tr>
-              {% endfor %}
-            </table>
-
-          </details>
-        </div>
-        {% endif %}
-      {% endfor %}
-
-    </div>
-  </section>
-  {% endif %}
-
-  {% endfor %}
+  {{ content }}
 
   {% include footer.html %}
+  
 </body>
 </html>

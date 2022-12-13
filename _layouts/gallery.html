@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="inner">          
+{% if page.gallery %}
+<div class="gallery">
+  {% for image in page.gallery %}
+  <span>
+    <img src="{{ image.path | prepend: site.baseurl }}">
+    <a href="{{ image.path | prepend: site.baseurl }}" target="_blank"></a>
+  </span>
+  {% endfor %}
+</div>
+{% endif %}
+
+{{page.content}}
+
+</div>
+
+
+<table>
+  {% for product in page.products %}
+    <tr>
+      <td>{{product.product-title}}</td>
+      <td>${{product.price}}</td>
+      <td class="paypal-wrap">
+        <div>
+          <div class="paypal-button" id="{{product.product-title | slugify}}" data-price='{{product.price}}'></div>
+        </div>
+      </td>
+    </tr>
+  {% endfor %}
+</table>
+</div>
+
+

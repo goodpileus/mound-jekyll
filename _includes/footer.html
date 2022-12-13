@@ -1,31 +1,3 @@
-{% for category in categories_array %}
-  
-  {% if category == 'bedrock' %}
-  <section id="{{category}}">
-
-    <span class="label">
-      <h1>{{category}}</h1>
-    </span>
-  
-    <div class="inner">
-      {% assign projects = site.projects | sort:"order" %}
-      {% for project in projects %}
-
-        {% if project.category == category %}
-
-        <div class="text align">
-          {{project.content}}
-        </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
-{% endfor %}
-
-
-
 
 <script src="{{ site.baseurl }}/assets/js/jquery-3.6.0.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/js.cookie.min.js"></script>
