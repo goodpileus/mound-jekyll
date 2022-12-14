@@ -1,13 +1,14 @@
 # Built with Jekyll 3.6.0
 
 # Setup
-title: 'MOUND.'
+title: MOUND.
+tagline: ''
 description: 'the mound...'
 url: ''
 baseurl: '/mound-jekyll'
 
 # About/contact
-author: ''
+author: 
   name: ''
   url: ''
   email: ''
