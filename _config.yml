@@ -1,17 +1,21 @@
 # Built with Jekyll 3.6.0
 
 # Setup
-title:               MOUND.
-tagline:             ''
-description:         'the mound...'
-url:                 ''
-baseurl:             '/mound-jekyll'
+title: 'MOUND.'
+description: 'the mound...'
+url: ''
+baseurl: '/mound-jekyll'
 
 # About/contact
-author:
-  name:              Aidan Quinlan
-  url:               https://aidanquinlan.net
-  email:             aidankquinlan@gmail.com
+author: ''
+  name: ''
+  url: ''
+  email: ''
+
+developer:
+  name: 'Aidan Quinlan'
+  url: 'aidanquinlan.net'
+  email: 'aidankquinlan@gmail.com'
 
 # Permalinks
 permalink: pretty
