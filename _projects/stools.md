@@ -11,10 +11,7 @@ gallery:
 
 custom: true
 products:
- - product-title: Really long Title For Object
-   price: 200
-   sold: true
- - product-title: Obj 2
+ - product-title: Stool
    price: 500
    sold: false
 ---
