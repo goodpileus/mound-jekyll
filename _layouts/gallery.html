@@ -7,7 +7,7 @@ layout: default
 <div class="gallery">
   {% for image in page.gallery %}
   <span>
-    <img src="{{ image.path | prepend: site.baseurl }}">
+    <img class="lazy" data-src="{{ image.path | prepend: site.baseurl }}" src="">
     <a href="{{ image.path | prepend: site.baseurl }}" target="_blank"></a>
   </span>
   {% endfor %}

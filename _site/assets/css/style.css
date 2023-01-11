@@ -318,9 +318,6 @@ pre code {
   --text: #000000;
   --link: #000000;
   --hover: #d4cec7;
-  /* --hover: #ffffff; */
-  /* --hover: #000000; */
-  /* --bg: #eaecde; */
   --bg: #ffffff;
   --altbg: #d6d4c0;
   /* --content-width: 50vw; */
@@ -426,6 +423,9 @@ a:hover {
   background-color: var(--hover);
   /* color:white; */ }
 
+button {
+  color: var(--text); }
+
 summary {
   background: var(--bg);
   /* margin-bottom: .5rem; */
@@ -439,6 +439,9 @@ summary {
   list-style: none;
   margin: 0;
   position: relative; }
+
+details summary::-webkit-details-marker {
+  display: none; }
 
 summary span {
   position: relative;
