@@ -30,6 +30,10 @@ $('.key-btn').click(function(){
   $( '.key' ).toggleClass('active');
 });
 
+$( ".close-btn" ).click(function() {
+  $( '.payment-backdrop' ).removeClass('active');
+});
+
     
 // --- random alignments
 var classes = new Array ('left', 'left-half', 'center', 'right-half', 'right');
