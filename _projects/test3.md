@@ -18,4 +18,4 @@ products:
 
 <h2>Test Item 3</h2>
 <p>Hello World</p>
-<p><a href="/assets/pdf/24_blank_composite.pdf">pdf</a></p>
+<p><a href="assets/pdf/24_blank_composite.pdf">pdf</a></p>
