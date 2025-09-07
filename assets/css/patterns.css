@@ -1,6 +1,6 @@
 /* pattern for the mound, should match the first section's pattern */
 #mound .inner {
-  background-image: url('../img/hatches/sand1.gif');
+  background-image: url('../img/patterns/sand1.gif');
 }
 
 /* stars pattern for night time above the mound */
@@ -10,18 +10,18 @@
 
 /* key pattern for mound */
 a.mound {
-  background-image: url('../img/hatches/mound-key.gif');
+  background-image: url('../img/patterns/mound-key.gif');
 }
 
 /* key patterns for sections, copy and paste when creating a new category */
 #s0, .s0 {
-  background-image: url('../img/hatches/sand1.gif');
+  background-image: url('../img/patterns/sand1.gif');
 }
 
 #s1, .s1 {
-  background-image: url('../img/hatches/stones3.gif');
+  background-image: url('../img/patterns/stones3.gif');
 }
 
 #bedrock, .bedrock {
-  background-image: url('../img/hatches/stones1b.gif');
+  background-image: url('../img/patterns/stones1b.gif');
 }

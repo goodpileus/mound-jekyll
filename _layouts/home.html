@@ -19,7 +19,7 @@ layout: default
 {% for category in categories_array %}
 
 {% if category != 'bedrock' %}
-<section id="{{category}}">
+<section id="{{category | slugify}}">
 
   <span class="label">
     <h1>{{category}}</h1>

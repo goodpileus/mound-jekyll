@@ -8,7 +8,7 @@
 
     {% for category in categories_array %}
       {% if category != 'bedrock' %}
-        <a class="{{category}}" href="#{{category}}">
+        <a class="{{category | slugify}}" href="#{{category | slugify}}">
           <span>{{category}}</span>
         </a>
       {% endif %}
@@ -17,7 +17,7 @@
     <!-- in order to place the bedrock key button at the end -->
     {% for category in categories_array %}
       {% if category == 'bedrock' %}
-        <a class="{{category}}" href="#{{category}}">
+        <a class="{{category | slugify}}" href="#{{category | slugify}}">
           <span>{{category}}</span>
         </a>
       {% endif %}
