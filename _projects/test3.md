@@ -8,7 +8,7 @@ gallery:
   - path: /assets/img/test/dutchess.jpg
   - path: /assets/img/test/eggbert.jpg
 
-custom: true
+custom: false
 products:
  - product-title: test product
    price: 10
