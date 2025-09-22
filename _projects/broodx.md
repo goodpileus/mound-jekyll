@@ -19,7 +19,7 @@ products:
    price: 200
    sold: true
  - product-title: Obj 2
-   price: 500
+   price: .25
    sold: false
 ---
 
