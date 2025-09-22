@@ -5,5 +5,5 @@ category: bedrock
 ---
 
 <p>
-  This is the disclaimer for purchasing custom items. Please note there is a lead-time of 6-7 weeks for custom items.
+  Disclaimer: For all non-custom items we have a lead time of 6-8 weeks. Turnaround times for custom work can vary widely.
 </p>
