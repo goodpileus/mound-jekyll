@@ -25,3 +25,7 @@ a.mound {
 #bedrock, .bedrock {
   background-image: url('../img/patterns/stones1b.gif');
 }
+
+#s3, .s3 {
+  background-image: url('../img/patterns/stones2.gif');
+}

@@ -1,6 +1,8 @@
 document.querySelectorAll('.paypal-button').forEach(function(selector) {
   console.log(selector.dataset.price) // Show an attribute from the parent div
   console.log(selector.id) // Show the div name from the parent div
+  console.log(selector.)
+
   paypal.Buttons({
     style: {
       shape: 'rect',
@@ -16,8 +18,8 @@ document.querySelectorAll('.paypal-button').forEach(function(selector) {
                 amount: {
                     value: selector.dataset.price
                 },
-                name: selector.dataset.name,
-                description: selector.dataset.name
+                name: selector.id,
+                description: selector.id
             }]
         });
     },
