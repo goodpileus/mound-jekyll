@@ -15,6 +15,9 @@ document.querySelectorAll('.paypal-button').forEach(function(selector) {
             purchase_units: [{
                 amount: {
                     value: selector.dataset.price
+                },
+                name: {
+                    value: selector.dataset.name
                 }
             }]
         });
