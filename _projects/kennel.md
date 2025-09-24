@@ -3,13 +3,13 @@ layout: gallery
 title:  "Kennel"
 category: s0
 order: 1
-featured: /assets/img/kennel/kennel_1.jpg
+featured: /assets/img/kennel/kennel_1.JPG
 gallery:
-  - path: /assets/img/kennel/kennel_2.jpg
-  - path: /assets/img/kennel/kennel_3.jpg
-  - path: /assets/img/kennel/kennel_4.jpg
-  - path: /assets/img/kennel/kennel_5.jpg
-  - path: /assets/img/kennel/kennel_6.jpg
+  - path: /assets/img/kennel/kennel_2.JPG
+  - path: /assets/img/kennel/kennel_3.JPG
+  - path: /assets/img/kennel/kennel_4.JPG
+  - path: /assets/img/kennel/kennel_5.JPG
+  - path: /assets/img/kennel/kennel_6.JPG
 
 custom: true
 products:
