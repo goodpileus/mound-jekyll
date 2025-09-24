@@ -16,9 +16,8 @@ document.querySelectorAll('.paypal-button').forEach(function(selector) {
                 amount: {
                     value: selector.dataset.price
                 },
-                name: {
-                    value: selector.dataset.name
-                }
+                name: selector.dataset.name,
+                description: selector.dataset.name
             }]
         });
     },

@@ -26,7 +26,7 @@ layout: default
       <td>${{product.price}}</td>
       <td class="paypal-wrap">
         <div>
-          <div class="paypal-button" id="{{product.product-title | slugify}}" data-price='{{product.price}}' data-name='{{product.product-title}}'></div>
+          <div class="paypal-button" id="{{product.product-title | slugify}}" data-price='{{product.price}}' data-name='{{product.product-title | slugify}}'></div>
         </div>
       </td>
     </tr>
