@@ -10,7 +10,6 @@ gallery:
   - path: /assets/img/kennel/kennel_3.jpg
   - path: /assets/img/kennel/kennel_4.jpg
   - path: /assets/img/kennel/kennel_5.jpg
-  - path: /assets/img/kennel/kennel_6.jpg
 
 custom: true
 products:
