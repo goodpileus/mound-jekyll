@@ -20,7 +20,7 @@ products:
    sold: false
 ---
 
-<h2>Apostle</h2>
+<h2>APOSTLE</h2>
 <p>
 Apostle's multiple stacked slabs jut out into space like weather beaten sea rock. In the hands of Mound the ball gouge becomes the wind and waves, carving incessantly around and against natural forms. A play on the "natural edge" table and an acknowledgement of the maker's marks and mind. As in erosion, the endless repetition of an action creates the work. This style can be customized to suit your needs.
 </p>
