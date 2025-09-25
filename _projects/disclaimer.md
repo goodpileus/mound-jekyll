@@ -2,7 +2,7 @@
 layout: text
 title:  "Disclaimer"
 category: bedrock
-order: 3
+order: 1
 ---
 
 <p>
