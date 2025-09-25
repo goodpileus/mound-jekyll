@@ -19,10 +19,10 @@ gallery:
 custom: true
 products:
  - product-title: M002 Laminar (coffee table form)
-   price: 1750
+   price: 3250
    sold: false
  - product-title: M012.2 Laminar (shelf form)
-   price: 2100
+   price: 3700
    sold: false
  - product-title: Design Fee (Laminar)
    price: 400

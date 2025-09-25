@@ -14,7 +14,7 @@ gallery:
 custom: true
 products:
  - product-title: M004 Kennel (bar form)
-   price: 1550
+   price: 2950
    sold: false
  - product-title: Design Fee (Kennel)
    price: 400

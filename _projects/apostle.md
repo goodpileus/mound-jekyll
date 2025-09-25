@@ -13,7 +13,7 @@ gallery:
 custom: true
 products:
  - product-title: M013 Apostle (coffee table form)
-   price: 1350
+   price: 2650
    sold: false
  - product-title: Design Fee (Apostle)
    price: 400
