@@ -11,4 +11,4 @@ Mound is a design and fabrication house based in Richmond VA on Powhatan land, b
 <div style="width: 1000px; height: 600px;">
     <img src="/mound-jekyll/assets/img/MOUND_MARK.png" width="50%" height="50%">
 </div>
-<img src="/mound-jekyll/assets/img/MOUND_MARK.png" width="25%">
+<img src="/mound-jekyll/assets/img/MOUND_MARK.png" width="5%">
