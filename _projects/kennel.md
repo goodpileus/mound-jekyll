@@ -1,6 +1,7 @@
 ---
 layout: gallery
 title:  "Kennel"
+draft: false
 category: s0
 order: 1
 featured: /assets/img/kennel/kennel_1.JPG
