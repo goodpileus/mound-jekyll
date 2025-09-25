@@ -4,9 +4,17 @@ title:  "Piranesi"
 draft: false
 category: s0
 order: 2
-featured: /assets/img/piranesi/piranesi_1.JPG
+featured: /assets/img/piranesi/piranesi_1.jpg
 gallery:
-  - path: /assets/img/piranesi/piranesi_2.JPG
+  - path: /assets/img/piranesi/piranesi_2.jpg
+  - path: /assets/img/piranesi/piranesi_3.jpg
+  - path: /assets/img/piranesi/piranesi_4.jpg
+  - path: /assets/img/piranesi/piranesi_5.jpg
+  - path: /assets/img/piranesi/piranesi_6.jpg
+  - path: /assets/img/piranesi/piranesi_7.jpg
+  - path: /assets/img/piranesi/piranesi_8.jpg
+  - path: /assets/img/piranesi/piranesi_9.jpg
+  - path: /assets/img/piranesi/piranesi_10.jpg
 
 
 custom: true
