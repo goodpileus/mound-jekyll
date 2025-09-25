@@ -25,6 +25,6 @@ products:
 
 <h2>HARMIKA</h2>
 <p>
-Harmika's eight stepped ziggurat represents the Noble Eightfold Path, its four legs the Four Noble Truths, and its Double Vajra-like lamp the Tree of Life connecting heaven and earth. This information can be taken or it can be left. Executed in walnut, maple, and brass. This style can be customized to suit your height needs.
+Harmika's eight stepped ziggurat represents the Noble Eightfold Path, its four legs the Four Noble Truths, and its Double Vajra-like lamp the Tree of Life connecting heaven and earth. This information can be taken or it can be left. Executed in walnut, maple, and brass. This style can be customized to suit your height and material needs.
 </p>
 <p><a href="/assets/pdf/2025_harmika_tearsheet.pdf">Tearsheet</a></p>
