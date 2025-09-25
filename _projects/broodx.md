@@ -1,6 +1,7 @@
 ---
 layout: gallery
 title:  "broodx"
+draft: false
 category: s0
 order: 2
 featured: /assets/img/broodx/1.jpg

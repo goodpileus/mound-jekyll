@@ -416,6 +416,8 @@ section .label h1{
   width:100%;
   padding: 3rem calc(66px + 1rem);
   position: relative;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 /* mound header section */
@@ -606,7 +608,7 @@ section .label h1{
   padding:.8rem;
 }
 
-.align:first-of-type {
+.align:last-of-type {
   margin-top:3rem;
 }
 
