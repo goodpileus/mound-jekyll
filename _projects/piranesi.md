@@ -2,7 +2,7 @@
 layout: gallery
 title:  "Piranesi"
 draft: false
-category: s0
+category: s1
 order: 2
 featured: /assets/img/piranesi/piranesi_1.jpg
 gallery:

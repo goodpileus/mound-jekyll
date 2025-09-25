@@ -2,7 +2,7 @@
 layout: gallery
 title:  "Kennel"
 draft: false
-category: s0
+category: s1
 order: 1
 featured: /assets/img/kennel/kennel_1.jpg
 gallery:

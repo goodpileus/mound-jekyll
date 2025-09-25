@@ -2,7 +2,7 @@
 layout: gallery
 title:  "Laminar"
 draft: false
-category: s0
+category: s1
 order: 3
 featured: /assets/img/laminar/laminar_1.jpg
 gallery:
