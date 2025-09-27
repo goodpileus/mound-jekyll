@@ -1,6 +1,7 @@
 ---
 layout: text
 title:  ""
+draft: true
 category: 
 order: 
 ---
