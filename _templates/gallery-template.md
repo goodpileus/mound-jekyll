@@ -1,6 +1,7 @@
 ---
 layout: gallery
 title:  ""
+draft: true
 category: 
 order: 
 featured: /assets/img/
