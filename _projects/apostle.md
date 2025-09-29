@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title:  "Apostle"
-draft: true
+draft: false
 category: s0
 order: 1
 featured: /assets/img/apostle/apostle_1.jpg
