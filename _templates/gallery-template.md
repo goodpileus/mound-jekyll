@@ -8,8 +8,7 @@ featured: /assets/img/
 gallery:
   - path: /assets/img/
 
-custom: true/false
-mto: true/false
+disclaimer: custom / mto
 
 products:
  - product-title: 
