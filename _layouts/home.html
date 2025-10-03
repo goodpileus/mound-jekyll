@@ -61,9 +61,15 @@ layout: default
 
               </div>
               
-              {% if project.custom == true %}
+              {% if project.disclaimer == 'custom' %}
               <div class="custom-disclaimer">
                 {% include custom-disclaimer.html %}
+              </div>
+              {% endif %}
+              
+              {% if project.disclaimer == 'mto' %}
+              <div class="custom-disclaimer">
+                {% include mto-disclaimer.html %}
               </div>
               {% endif %}
 

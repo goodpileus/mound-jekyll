@@ -10,7 +10,8 @@ gallery:
   - path: /assets/img/apostle/apostle_3.jpg
   - path: /assets/img/apostle/apostle_4.jpg
 
-custom: true
+disclaimer: custom
+
 products:
  - product-title: M013 Apostle (coffee table form)
    price: 2650

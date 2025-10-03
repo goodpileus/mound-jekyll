@@ -11,7 +11,8 @@ gallery:
   - path: /assets/img/kennel/kennel_4.jpg
   - path: /assets/img/kennel/kennel_5.jpg
 
-custom: true
+disclaimer: custom
+
 products:
  - product-title: M004 Kennel (bar form)
    price: 2950

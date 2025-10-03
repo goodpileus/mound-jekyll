@@ -15,8 +15,8 @@ gallery:
   - path: /assets/img/laminar/laminar_8.jpg
   - path: /assets/img/laminar/laminar_9.jpg
 
+disclaimer: custom
 
-custom: true
 products:
  - product-title: M002 Laminar (coffee table form)
    price: 3250

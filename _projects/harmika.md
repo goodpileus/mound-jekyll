@@ -10,7 +10,8 @@ gallery:
   - path: /assets/img/harmika/harmika_3.jpg
   - path: /assets/img/harmika/harmika_4.jpg
 
-custom: true
+disclaimer: mto
+
 products:
  - product-title: M017 AP3 Harmika Lamp 
    price: 1850

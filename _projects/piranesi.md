@@ -16,8 +16,8 @@ gallery:
   - path: /assets/img/piranesi/piranesi_9.jpg
   - path: /assets/img/piranesi/piranesi_10.jpg
 
+disclaimer: custom
 
-custom: true
 products:
  - product-title: Design Fee (Piranesi)
    price: 400

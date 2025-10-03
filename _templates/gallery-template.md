@@ -9,6 +9,8 @@ gallery:
   - path: /assets/img/
 
 custom: true/false
+mto: true/false
+
 products:
  - product-title: 
    price: 
