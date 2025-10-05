@@ -19,9 +19,6 @@ products:
  - product-title: Harmika Lamp 
    price: 2250
    sold: false
- - product-title: Design Fee (Harmika)
-   price: 400
-   sold: false
 ---
 
 <h2>HARMIKA</h2>
