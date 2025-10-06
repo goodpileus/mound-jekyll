@@ -6,5 +6,21 @@ order: 1
 ---
 
 <p>
-  Disclaimer: Works for sale listed with an M-number are available immediately. For all non-custom made-to-order items we have a lead time of 6-8 weeks. Turnaround times for custom work can vary widely. Custom design consultation fees cover a short back and forth between designer and client, accompanied by sketches and an eventual quote. Shipping of work is an extra cost and not reflected in our listed prices.
+- Works for sale listed with an M-number are available immediately.
+</p>
+
+<p>
+- Made-to-order items (non-custom) incur a 6-8 week lead time.
+</p>
+
+<p>
+- Production time on custom items fluctuates depending on your project. Necessary production time will be made clear in the design process.
+</p>
+
+<p>
+- Shipping is an additional cost not reflected in listed prices. For a personalized packing freight quote, contact us.
+</p>
+
+<p>
+- Initial design consultations include briefing, communication clarifying any project and production questions, followed by sketches and an eventual quote.
 </p>

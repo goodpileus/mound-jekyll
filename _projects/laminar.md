@@ -18,18 +18,18 @@ gallery:
 disclaimer: custom
 
 products:
- - product-title: M002 Laminar (coffee table form)
+ - product-title: M002 Laminar "Cooked" (coffee table form)
    price: 3250
    sold: false
  - product-title: M012.2 Laminar (shelf form)
    price: 3700
    sold: false
  - product-title: Design Fee (Laminar)
-   price: 400
+   price: 450
    sold: false
 ---
 
 <h2>LAMINAR</h2>
 <p>
-Laminar's delicately tensioned structure drips with translucencies of color. Hand-applied epoxy is left to be what it is: fluid transfixed in space. Turned wooden accents can ground the otherwise quite amorphous forms. This style can be customized to suit your needs.
+Laminar contains multitudes: drips, tips, and lines. A delicately tensioned structure dripping with translucent color. Hand-applied epoxy is allowed to be as it is, fluid suspended in space. Lathe-turned wooden accents anchor a body veering toward amorphous, and offer an organic counterpoint. Look at natural and synthetic playing nice.
 </p>

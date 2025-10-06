@@ -18,11 +18,11 @@ products:
    price: 2950
    sold: false
  - product-title: Design Fee (Kennel)
-   price: 400
+   price: 350
    sold: false
 ---
 
 <h2>KENNEL</h2>
 <p>
-Kennel's fat soft-pink granite shelves lounge inside a cage of chain link like squarish tongues. The gate creaks as you open it, groaning out a reminder of cracked city streets and metallic limits hidden within masses of growth. Inner dogs bark and run back and forth, constricted. This style can be customized to suit your needs.
+Soft granite shelves lay like rectangular tongues inside Kennel's cage of chain link. Turbo dogs, barking, running back and forth are summoned opening the creaking gate door. The groaned reminder of cracked city sidewalks, metallic limits tucked within masses of growth.
 </p>

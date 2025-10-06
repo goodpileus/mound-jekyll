@@ -20,11 +20,11 @@ disclaimer: custom
 
 products:
  - product-title: Design Fee (Piranesi)
-   price: 400
+   price: 450
    sold: false
 ---
 
 <h2>PIRANESI</h2>
 <p>
-Piranesi's clean lines of cabinetry are engulfed by an energetic ruination, a new and active ordering of its form. This entropic force at once interrupts and holds, boiling scagliola and broken balusters becoming structure and support once more. Ruin is its own language, an endless one, the conversation between gravity, water, and exuberant life. This style can be customized to suit your needs.
+Piranesi's clean lines of cabinetry are engulfed by an energetic ruination, a new and active ordering of its form. This entropic force at once interrupts and holds, boiling scagliola and broken balusters becoming structure and support once more. Ruin is its own language: gravity, water and exuberant life’s never-ending conversation. Piranesi is part of an ongoing experiment translating the logics of ruin into a design language.
 </p>

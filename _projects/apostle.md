@@ -9,6 +9,8 @@ gallery:
   - path: /assets/img/apostle/apostle_2.jpg
   - path: /assets/img/apostle/apostle_3.jpg
   - path: /assets/img/apostle/apostle_4.jpg
+  - path: /assets/img/apostle/apostle_5.jpg
+  - path: /assets/img/apostle/apostle_6.jpg
 
 disclaimer: custom
 
@@ -17,12 +19,12 @@ products:
    price: 2650
    sold: false
  - product-title: Design Fee (Apostle)
-   price: 400
+   price: 300
    sold: false
 ---
 
 <h2>APOSTLE</h2>
 <p>
-Apostle's multiple stacked slabs jut out into space like weather beaten sea rock. In the hands of Mound the ball gouge becomes the wind and waves, carving incessantly around and against natural forms. A play on the "natural edge" table and an acknowledgement of the maker's marks and mind. As in erosion, the endless repetition of an action creates the work. This style can be customized to suit your needs.
+Apostle winks at the “natural edge" table and clearly announces its maker’s mark and mind. Stacked slabs, carved incessantly, jut into space like a weather-beaten coastal cliffside. A ball gouge mimics the natural elements, standing in for rock-corroding wind and waves. As in erosion, the work is accomplished through endlessly repeated action.
 </p>
 

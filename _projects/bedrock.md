@@ -6,7 +6,13 @@ order: 3
 ---
 
 <p>
-Mound is a design and fabrication house based in Richmond VA on Powhatan land, born in a global pandemic and designing with end-times flair. We recognize a need for a Post-Lifestyle design objective; to create outside of fickle trends which promote consumption above all. We listen to those early modernist shamans who said design can better someone's life and develop their inner self. We design for the tomb-set society, those skeptical old souls who think the word "new" is a myth invented to sell cereal. Mound is a skull stretched across the periphery of your living room. <i>Mound produces grave goods you can live with.</i>
+Mound is a design and fabrication house, born in a global pandemic and designing with end-times flair. We concern ourselves with Post-Lifestyle design: objects blind to feeble trends and bottomless pit consumption. To those early modernist shamans, who said design can better someone’s life and nourish the interior self, we listened and learned.
+</p>
+<p>
+Mound designs for the tomb-set society, those discerning old souls who suspect “new” was invented to sell shoes and cereal. Mound is a skull stretched across the periphery of your living room. <i>Mound produces grave goods you can live with.</i>
+</p>
+<p>
+Mound is based in Richmond VA on Powhatan land. To discuss customization potentials or commission work, please email.
 </p>
 <p align="right"><img src="assets/img/MOUND_MARK.png" style="width:15%;"></p>
 
