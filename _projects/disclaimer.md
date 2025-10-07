@@ -22,5 +22,9 @@ order: 1
 </p>
 
 <p>
+Mound has wholesale pricing on some items. Please contact us for more information.
+</p>
+
+<p>
 - Initial design consultations include briefing, communication clarifying any project and production questions, followed by sketches and an eventual quote.
 </p>
