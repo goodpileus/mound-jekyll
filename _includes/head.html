@@ -2,7 +2,7 @@
   {% capture resource_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
   {% capture directory_url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
   <!-- Canonical link to help search engines -->
-  <link rel="canonical" href="{{ site.url }}" />
+  <link rel="canonical" href="{{ site.baseurl }}" />
 
   <!-- Basic meta elements -->
   <meta charset="utf-8" />
@@ -16,7 +16,7 @@
 
   <!-- Open Graph metadata -->
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:url" content="{{ site.baseurl }}" />
   <meta property="og:image" content="{{ site.baseurl }}/assets/img/og2.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />

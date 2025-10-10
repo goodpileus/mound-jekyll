@@ -4,13 +4,13 @@
 title: MOUND.
 tagline: ''
 description: 'the mound...'
-url: ''
-baseurl: ''
+url: 'https://mound.info'
+baseurl: 'mound.info'
 
 # About/contact
 author: 
-  name: ''
-  url: ''
+  name: 'Aidan Quinlan'
+  url: 'aidanquinlan.net'
   email: ''
 
 # Permalinks
