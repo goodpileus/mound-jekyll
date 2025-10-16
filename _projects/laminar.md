@@ -24,7 +24,7 @@ products:
  - product-title: M012.2 Laminar (shelf form)
    price: 3700
    sold: false
- - product-title: Design Fee (Laminar)
+ - product-title: Custom Design Deposit (Laminar)
    price: 450
    sold: false
 ---

@@ -22,7 +22,7 @@ order: 1
 </p>
 
 <p>
-Mound has wholesale pricing on some items. Please contact us for more information.
+- Mound has wholesale pricing on some items. Please contact us for more information.
 </p>
 
 <p>

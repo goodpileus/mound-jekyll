@@ -17,7 +17,7 @@ products:
  - product-title: M004 Kennel (bar form)
    price: 2950
    sold: false
- - product-title: Design Fee (Kennel)
+ - product-title: Custom Design Deposit (Kennel)
    price: 350
    sold: false
 ---
