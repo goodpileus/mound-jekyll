@@ -19,7 +19,7 @@ products:
    sold: false
 ---
 
-<h2>Portal</h2>
+<h2>PORTAL</h2>
 <p>
 Portal's intricate wooden patterning emerges undulating from an epoxy soup. Always made with a found or given door as a slab base, Portal rests somewhere between an interdimensional entryway and an attentive support. Its multitudinous feet are reminiscent of a rug's tassles, yet are made from collected pewter bowls, plates, cups melted and recast. Portal is an exercise in shapeshifting, in transformation.
 </p>
