@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title:  "Mississippi"
-draft: true
+draft: false
 category: s0
 order: 4
 featured: /assets/img/mississippi/mississippi_1.jpg
