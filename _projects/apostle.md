@@ -19,7 +19,7 @@ products:
    price: 2650
    sold: false
  - product-title: Custom Design Deposit (Apostle)
-   price: 300
+   price: 160
    sold: false
 ---
 
