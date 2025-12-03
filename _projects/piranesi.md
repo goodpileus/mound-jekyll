@@ -20,7 +20,7 @@ disclaimer: custom
 
 products:
  - product-title: Custom Design Deposit (Piranesi)
-   price: 450
+   price: 320
    sold: false
 ---
 

@@ -25,7 +25,7 @@ products:
    price: 3700
    sold: false
  - product-title: Custom Design Deposit (Laminar)
-   price: 450
+   price: 320
    sold: false
 ---
 

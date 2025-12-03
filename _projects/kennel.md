@@ -18,7 +18,7 @@ products:
    price: 2950
    sold: false
  - product-title: Custom Design Deposit (Kennel)
-   price: 350
+   price: 160
    sold: false
 ---
 
