@@ -39,5 +39,5 @@ products:
 Mississippi is a product of historical noise. Stacked molding holds and reveals years of repainted rooms, renovations, changing tastes. These histories are subdued and transformed into layers of colored static adorning weighty architectures, resting places for your precious things. Dreams of Mississippian ceremonies atop massive mounds of earth buoy your fingers as you select your jewelry for the day.
 </p>
 <p>
-The dresser pictured features collaborative sculptural work with artist <a href="https://cargocollective.com/cassieworks">Cassie Works</a>. Jewelry and hand modeling provided by <a href="https://linktr.ee/Cassidysnider">Cassidy Snider</a>.
+The dresser pictured features collaborative sculptural work with <a href="https://cargocollective.com/cassieworks">Cassie Works</a>. Jewelry and hand modeling provided by <a href="https://linktr.ee/Cassidysnider">Cassidy Snider</a>.
 </p>
