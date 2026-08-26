@@ -31,4 +31,5 @@ products:
 <p>
 Assisi draws from medieval visions of asceticism and religious study. Assisi is dedicated to the life of simple seclusion St. Francis led. Solid Douglas Fir imparts just enough weight to keep its structure in tension. In the flatfile form, <a href="https://www.oonas.art/">Oona Schreur’s</a> hollow hammered copper pulls evoke winding vines at the mouths of caves, or standard stoppages. Assisi is not currently a customizable style.
 </p>
+<p><a href="https://artsandculture.google.com/asset/egGQB5gOZujX4g">"St. Francis In the Desert" circa 1480 by Giovanni Bellini</a></p>
 
