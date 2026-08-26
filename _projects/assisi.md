@@ -1,28 +1,34 @@
 ---
 layout: gallery
 title:  "Assisi"
-draft: true
+draft: false
 category: s0
-order: 2
-featured: /assets/img/harmika/harmika_1.jpg
+order: 5
+featured: /assets/img/assisi/assisi_lectern_01.jpg
 gallery:
-  - path: /assets/img/harmika/harmika_2.jpg
-  - path: /assets/img/harmika/harmika_3.jpg
-  - path: /assets/img/harmika/harmika_4.jpg
+  - path: /assets/img/assisi/assisi_lectern_02.jpg
+  - path: /assets/img/assisi/assisi_lectern_03.jpg
+  - path: /assets/img/assisi/assisi_lectern_04.jpg
+  - path: /assets/img/assisi/assisi_flatfile_01.jpg
+  - path: /assets/img/assisi/assisi_flatfile_02.jpg
+  - path: /assets/img/assisi/assisi_flatfile_03.jpg
 
 disclaimer: mto
 
 products:
- - product-title: M017 AP3 Harmika Lamp 
-   price: 1850
+ - product-title: M026.AP1 Assisi (lectern form)
+   price: 2200
    sold: false
- - product-title: Harmika Lamp 
-   price: 2250
+ - product-title: Assisi (lectern form) 
+   price: 2400
+   sold: false
+ - product-title: Assisi (flatfile form) 
+   price: 3600
    sold: false
 ---
 
-<h2>HARMIKA</h2>
+<h2>ASSISI</h2>
 <p>
-Executed in walnut, maple, and brass, Harmika draws inspiration from the Buddhist practice of stupa-building. This information can be taken or it can be left. Her eight stepped ziggurat represents the Noble Eightfold Path, the four legs the Four Noble Truths, and her Double Vajra-like lamp the Tree of Life connecting heaven and earth. Although this item is not fully custom, different dimensions and materials can be requested.
+Assisi draws from medieval visions of asceticism and religious study. Assisi is dedicated to the life of simple seclusion St. Francis led. Solid Douglas Fir imparts just enough weight to keep its structure in tension. In the flatfile form, <a href="https://www.oonas.art/">Oona Schreur’s</a> hollow hammered copper pulls evoke winding vines at the mouths of caves, or standard stoppages. Assisi is not currently a customizable style.
 </p>
-<p><a href="/assets/pdf/2025_harmika_tearsheet.pdf">Tearsheet</a></p>
+
