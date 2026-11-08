@@ -23,7 +23,7 @@ products:
    price: 2400
    sold: false
  - product-title: Assisi (flatfile form) 
-   price: 3600
+   price: 4000
    sold: false
 ---
 
